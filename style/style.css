@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.heading {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #496893;
+}
+.container {
+  text-align: center;
+}
+.stopwatchContainer {
+  background-color: #c8dcf7;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#display {
+  height: 200px;
+  width: 200px;
+  margin: 40px 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3edf8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.time {
+  color: #31456a;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 1px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 0 20px;
+  padding: 8px 35px;
+  background-color: #e3edf8;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.stop-start {
+  color: #31456a;
+}
+.reset {
+  color: #ea5d5d;
+}
