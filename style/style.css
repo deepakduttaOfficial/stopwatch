@@ -64,6 +64,10 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.btn:focus {
+  background-color: #ccdbeb;
+}
+
 .stop-start {
   color: #31456a;
 }
